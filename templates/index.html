@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/mobile.css">
-    <link rel="stylesheet" href="style/tablet.css">
+    <link rel="stylesheet" href="{{  url_for('static', filename='mobile.css' )  }}">
+    <link rel="stylesheet" href="{{  url_for('static', filename='tablet.css' )  }}">
     <script src="https://kit.fontawesome.com/f895649843.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
@@ -49,14 +49,14 @@
                     cheap pricing, easy to use app, and reliablity, Andale is people's go to delivery company.
                 </p>
             </div>
-            <img class="isometric" id="phone-dude" src="assets/phoneguy.png" alt="delivery pic" style="order: 2;">
+            <img class="isometric" id="phone-dude" src="{{  url_for('static', filename='phoneguy.png' )  }}" alt="delivery pic" style="order: 2;">
         </div>
 
         <div class="section" id="perks">
             <h2 style="display: block;width: 100%;">why us?</h2>
             <div class="block">
                 <h2>Because we can</h2>
-                <img src="assets/warehouse.jpg" alt="warehouse pic">
+                <img src="{{  url_for('static', filename='warehouse.jpg' )  }}" alt="warehouse pic">
                 <p>With Andale's massive warehouses located all around the country, its army of workers, and its
                     fleet
                     of ships, planes, and trucks, we can handle what you throw at as. As much as you want, as big as
@@ -66,14 +66,14 @@
             </div>
             <div class="block " id="tracking">
                 <h2>Real-time tracking</h2>
-                <img src="assets/tracking.jpg" alt="tracking pic">
+                <img src="{{  url_for('static', filename='tracking.jpg' )  }}" alt="tracking pic">
                 <p>Our easy to use app lets you schedule a delivery right from the comfort of your bed, and offers
                     you
                     real-time tracking, so you never stay out of the loop.</p>
             </div>
             <div class="block" id="door">
                 <h2>Door to door</h2>
-                <img src="assets/door_deliv.svg" alt="door pic">
+                <img src="{{  url_for('static', filename='door_deliv.svg' )  }}" alt="door pic">
                 <p> Trafic sucks huh? Don't have enough trunk space? No worries, Andale delivers from your doorstep
                     right to your clients doorstep, so you don't have move an inch.
                 </p>
@@ -91,7 +91,7 @@
                     nostrum dignissimos expedita, eos ullam, saepe quod ipsa voluptas assumenda autem illo doloribus!
                     Tenetur, vel? Qui, exercitationem?
                 </p>
-                <img class="isometric" id="map" src="assets/dz.png" alt="dz">
+                <img class="isometric" id="map" src="{{  url_for('static', filename='dz.png' )  }}" alt="dz">
             </div>
         </div>
 
@@ -152,7 +152,7 @@
         </div>
 
         <div class="section" id="contact">
-            <img src="assets/mail.png" alt="mail" class="isometric"></img>
+            <img src="{{  url_for('static', filename='mail.png' )  }}" alt="mail" class="isometric"></img>
             <h2>Get in touch!</h2> <br>
             <form action="input" class="pageclip-form" method="post">
                 <label for="email"> Email:</label>
