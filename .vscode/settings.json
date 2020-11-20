@@ -1,3 +1,4 @@
 {
-    "editor.renameOnType": true
+    "editor.renameOnType": true,
+    "python.pythonPath": "/sbin/python"
 }
