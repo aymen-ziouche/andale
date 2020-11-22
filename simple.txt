@@ -1,4 +1,2 @@
  email : example@example.com, name : example, message : test
- email : examle@gmail.com, name : test, message : another test 2
- email : aymenannaba16@gmail.com, name : Ziouche, message : test
- email : aymenannaba16@gmail.com, name : Ziouche, message : another test
+ email : examle@gmail.com, name : test, message : test 2
