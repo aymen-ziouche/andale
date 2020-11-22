@@ -1,4 +1,6 @@
 {
     "editor.renameOnType": true,
-    "python.pythonPath": "/sbin/python"
+    "python.pythonPath": "/home/aymen/Projects/flask-projects/.venv/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }
